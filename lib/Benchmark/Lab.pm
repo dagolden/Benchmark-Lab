@@ -5,7 +5,7 @@ use warnings;
 package Benchmark::Lab;
 # ABSTRACT: Tools for structured benchmarking and profiling
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 my $PROFILING = 0;
 my $CLOCK_FCN = sub { die "Benchmark::Lab not initialized with import()" };
